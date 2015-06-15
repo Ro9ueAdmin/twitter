@@ -9,11 +9,11 @@ Author: Egor Kokorin
 2015 ©
 */
 # Проверка полученных данных
-if ( isset($_POST['login'])       && $_POST['login']       != "" &&  $_POST['login']       != "Twitter login"    &&
-   isset($_POST['password'])    && $_POST['password']    != "" &&  $_POST['password']    != "Twitter password" &&
-   isset($_POST['newpassword']) && $_POST['newpassword'] != "" &&  $_POST['newpassword'] != "New password"     &&
-   isset($_POST['newmail'])     && $_POST['newmail']     != "" &&  $_POST['newmail']     != "New email"        &&
-   isset($_POST['mailpass'])    && $_POST['mailpass']    != "" &&  $_POST['mailpass']    != "Ur mail pass"      )
+if (  isset($_POST['login'])       && $_POST['login']       != "" &&  $_POST['login']       != "Twitter login"    &&
+      isset($_POST['password'])    && $_POST['password']    != "" &&  $_POST['password']    != "Twitter password" &&
+      isset($_POST['newpassword']) && $_POST['newpassword'] != "" &&  $_POST['newpassword'] != "New password"     &&
+      isset($_POST['newmail'])     && $_POST['newmail']     != "" &&  $_POST['newmail']     != "New email"        &&
+      isset($_POST['mailpass'])    && $_POST['mailpass']    != "" &&  $_POST['mailpass']    != "Ur mail pass"      )
 {
    # Подключаю файл с функциями
    include "functions.php";
