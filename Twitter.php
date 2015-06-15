@@ -6,7 +6,7 @@ You can easily rewrite this
 script to get accounts from .txt
 
 Author: Egor Kokorin
-2015 ©
+2015 © 
 */
 # Проверка полученных данных
 if (  isset($_POST['login'])       && $_POST['login']       != "" &&  $_POST['login']       != "Twitter login"    &&
