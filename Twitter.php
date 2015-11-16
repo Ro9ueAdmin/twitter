@@ -3,7 +3,7 @@
 TAPEC - Twitter Auto Password and Email Changer
 
 You can easily rewrite this
-script to get accounts from .txt
+script to take accounts from .txt
 
 Author: Egor Kokorin
 2015 © 
